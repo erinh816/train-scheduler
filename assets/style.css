@@ -1,0 +1,43 @@
+p{margin-left:60px;
+  margin-top:30px;
+  font-size:200px;
+      
+  animation: change 1s  ease-in  infinite ; font-size: 36px; color:rgb(247, 239, 239); font-weight: bold}
+  @keyframes change {
+  0%{ text-shadow: 0 0 4px rgb(240, 234, 234)}
+  50%{ text-shadow: 0 0 40px rgb(238, 230, 3)}
+  100%{ text-shadow: 0 0 4px rgb(241, 237, 237)}
+   }
+
+.table{opacity:0.9;
+       margin-left:100px;
+       margin-right:100px;
+       background: #eee;
+       margin: 20px auto;
+       width: 1200px;
+       padding: 12px;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       border-radius: 5px;
+       -webkit-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+       -moz-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+       box-shadow: inset 0 1px 1px 0 #c7c7c7;
+    }
+    form{opacity:0.8;
+        margin-left:150px;
+        margin-right:150px;
+        margin-top:50px;
+        padding: 12px;
+        -webkit-box-shadow: 0 0 5px #000;
+        -moz-box-shadow: 0 0 5px #000;
+        box-shadow: 0 0 5px #000; 
+        background: -webkit-radial-gradient(center, circle, #f0f0f0, #807f7e);
+        background: -moz-radial-gradient(center, circle, #f0f0f0, #74726f);
+        background: -ms-radial-gradient(center, circle, #f0f0f0, #74726f);
+        background: -o-radial-gradient(center, circle, #f0f0f0, #74726f);
+        background: radial-gradient(center, circle, #f0f0f0, #74726f);
+      }
+
+    #submit{
+      background-color:rgb(29, 12, 29);
+    }
